@@ -3,7 +3,7 @@
 ## Rahul Merge Text
 [Rahul Merge Text](https://github.com/srahulbose/Rahul-Merge-Text/) is a useful utility 📄 designed for seamlessly merging multiple text files into a single output document. This application is ideal for developers, students, and anyone managing various text files, enabling efficient and organized file handling. 🛠️
 
-[Release download.] (https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2)
+[Release download.](https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2)
 
 ## Key Features
 Effortlessly Merge Files: Merge multiple text files from any folder in Windows Explorer.
