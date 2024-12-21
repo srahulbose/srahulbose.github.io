@@ -1,14 +1,15 @@
+# Windows Apps
 
-# Rahul's Simple Apps
-===================
+## Rahul Merge Text
+[Rahul Merge Text](https://github.com/srahulbose/Rahul-Merge-Text/) is a useful utility 📄 designed for seamlessly merging multiple text files into a single output document. This application is ideal for developers, students, and anyone managing various text files, enabling efficient and organized file handling. 🛠️
 
-Hello Visitor,
+[Release download.] (https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2)
 
-**Thanks for dropping by.**
+## Key Features
+Effortlessly Merge Files: Merge multiple text files from any folder in Windows Explorer.
+Automatic Processing: Merges files immediately when selected through the file dialog, making the user experience straightforward.
 
-_This is personal hobby website to share apps am working on. These are tools I personally wanted for my own life. Hoping some of these might be of help to you._
-
-
+# Web Apps
 
 ## Annotator App
 -------------
