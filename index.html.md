@@ -1,37 +1,85 @@
-# Windows Apps
+# S Rahul Bose
 
-## Rahul Merge Text
-[Rahul Merge Text](https://github.com/srahulbose/Rahul-Merge-Text/) is a useful utility 📄 designed for seamlessly merging multiple text files into a single output document. This application is ideal for developers, students, and anyone managing various text files, enabling efficient and organized file handling. 🛠️
+I build small apps and tools — usually because I needed one myself and couldn't find something that just did the one thing I wanted.
 
-[Release download.](https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2)
+---
 
-## Key Features
-Effortlessly Merge Files: Merge multiple text files from any folder in Windows Explorer.
-Automatic Processing: Merges files immediately when selected through the file dialog, making the user experience straightforward.
+## Windows Apps
 
-# Web Apps
+### [Random Forge](https://apps.microsoft.com/detail/9ngwd2mn1m1t?hl=en-US)
 
-## Annotator App
--------------
+*published 12 Jan 2021 · windows*
 
-1.  To help students get a quick reference to concepts so that it will help during regular classes. -> [Annotator App](https://srb.com.de/Annotator_Highlight_Business_MBA_Tool)  
-    ![](https://raw.githubusercontent.com/srb/srb.github.io/main/annotator_20240210233309.png)
+Generates random strings, numbers, GUIDs, UUIDs, and secure passwords, all from one small app instead of a browser tab full of half-trusted generator sites. Mostly built for developers and testing, but handy any time you need something random on the spot.
 
-## Identify Indian Food App
-------------------------
+Free to use, with optional in-app purchases.
 
-2.  For Foodies who cannot easily recall regional Indian food dish names. -> [Identify Indian Food App](https://srb.com.de/Identify_Indian_Food_from_Photo_Tool)  
-    ![](https://raw.githubusercontent.com/srb/srb.github.io/main/food-20240210233145.png)
+[Get it on Microsoft Store →](https://apps.microsoft.com/detail/9ngwd2mn1m1t?hl=en-US)
 
-## Personalized Wallpaper App
---------------------------
+![Random Forge screenshot](images/random-forge-screenshot.png)
 
-3.  For helping all of us stay positive by creating our own wallpapers from the quotes that we like individually. Background images are automatically select and you get a ready made poster you can use. -> [Personalized Wallpaper App](https://srb.com.de/Wallpaper_Create_from_custom_text_Tool)  
-    ![](https://raw.githubusercontent.com/srb/srb.github.io/main/wallpaper_20240210233219.png)
+---
 
-## WordHaze
---------
+### [Rahul Merge Text](https://github.com/srahulbose/Rahul-Merge-Text/)
 
-4.  If you wish to create a word cloud from a huge text, to quickly know the important topics mentioned, please try [WordHaze](https://wordhaze.com/).
+*published 21 Dec 2024 · windows*
 
-Please email me for any ideas, feedbacks, criticisms and suggestions. Thank you. email: srbworld \[at the rate\] gmail.com
+Merges a folder full of text files into one document. Select the files in Windows Explorer, and it stitches them together right away — no opening each one and copy-pasting by hand.
+
+[Download the latest release →](https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2)
+
+![Rahul Merge Text screenshot](https://raw.githubusercontent.com/srahulbose/Rahul-Merge-Text/refs/heads/main/Assets/Rahul%20Merge%20Text%20ScreenShot%2020241221143227.png)
+
+---
+
+## Web Apps
+
+### [Annotator](https://srb.com.de/Annotator_Highlight_Business_MBA_Tool)
+
+*published 10 Feb 2024 · web*
+
+Built to help students find and highlight the concepts that actually matter, so a text is quicker to reference before or during class.
+
+[Open Annotator →](https://srb.com.de/Annotator_Highlight_Business_MBA_Tool)
+
+![Annotator app screenshot](https://raw.githubusercontent.com/srb/srb.github.io/main/annotator_20240210233309.png)
+
+---
+
+### [WordHaze](https://wordhaze.com/)
+
+*published 4 Jan 2021 · web*
+
+Paste in a large chunk of text and get a word cloud back — a fast way to see what a document is actually about before you read the whole thing.
+
+[Try WordHaze →](https://wordhaze.com/)
+
+![WordHaze screenshot](images/wordhaze-screenshot.png)
+
+---
+
+### [Identify Indian Food](https://srb.com.de/Identify_Indian_Food_from_Photo_Tool)
+
+*published 10 Feb 2024 · web*
+
+For anyone who's stared at a plate and drawn a complete blank on what the dish is called. Snap a photo and get a name for it.
+
+[Open the tool →](https://srb.com.de/Identify_Indian_Food_from_Photo_Tool)
+
+![Identify Indian Food app screenshot](https://raw.githubusercontent.com/srb/srb.github.io/main/food-20240210233145.png)
+
+---
+
+### [Personalized Wallpaper](https://srb.com.de/Wallpaper_Create_from_custom_text_Tool)
+
+*published 10 Feb 2024 · web*
+
+Turns a quote you like into a wallpaper. Type in the words, and it picks a fitting background and lays out a ready-made poster you can actually use.
+
+[Make a wallpaper →](https://srb.com.de/Wallpaper_Create_from_custom_text_Tool)
+
+![Personalized Wallpaper app screenshot](https://raw.githubusercontent.com/srb/srb.github.io/main/wallpaper_20240210233219.png)
+
+---
+
+Got an idea, found a bug, or just want to say hi? Email me at srbworld [at the rate] gmail.com.
