@@ -18,17 +18,6 @@ Free to use, with optional in-app purchases.
 
 ![Random Forge screenshot](https://raw.githubusercontent.com/srahulbose/srahulbose.github.io/refs/heads/main/assets/Random%20Forge%202.png)
 
----
-
-### [Rahul Merge Text](https://github.com/srahulbose/Rahul-Merge-Text/)
-
-*published 21 Dec 2024 · windows*
-
-Merges a folder full of text files into one document. Select the files in Windows Explorer, and it stitches them together right away — no opening each one and copy-pasting by hand.
-
-[Download the latest release →](https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2)
-
-![Rahul Merge Text screenshot](https://raw.githubusercontent.com/srahulbose/Rahul-Merge-Text/refs/heads/main/Assets/Rahul%20Merge%20Text%20ScreenShot%2020241221143227.png)
 
 ---
 
