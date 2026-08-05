@@ -3,18 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rahul's personal blog">
-    <meta name="keywords" content="Rahul, blog, personal, thoughts">
+    <meta name="description" content="Windows and web apps made by S Rahul Bose">
+    <meta name="keywords" content="Rahul, apps, tools, windows apps, web apps">
     <meta name="author" content="S Rahul Bose">
     <title>S Rahul Bose</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
     <style>
+        :root {
+            --paper: #efeee7;
+            --ink: #24211d;
+            --ink-soft: #6b665c;
+            --ember: #9a3e2a;
+            --rule: #dbd6c9;
+        }
+
+        * { box-sizing: border-box; }
+
         body {
-            font-family: Arial, sans-serif;
-            text-align: left; /* Changed to left alignment */
-            margin: 50px; /* Add margin for spacing */
+            background: var(--paper);
+            color: var(--ink);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 17px;
+            line-height: 1.65;
+            max-width: 660px;
+            margin: 0 auto;
+            padding: 72px 24px 96px;
+        }
+
+        h1.site-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-weight: 600;
+            font-size: 2.3rem;
+            letter-spacing: -0.01em;
+            margin: 0 0 8px;
+        }
+
+        p.tagline {
+            color: var(--ink-soft);
+            font-size: 1.05rem;
+            margin: 0 0 40px;
+            max-width: 46ch;
+        }
+
+        hr.rule {
+            border: none;
+            border-top: 1px solid var(--rule);
+            margin: 0;
+        }
+
+        section { margin-top: 56px; }
+
+        h2.section-title {
+            font-family: 'Fraunces', Georgia, serif;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--ink-soft);
+            margin: 0 0 8px;
+        }
+
+        .app {
+            padding: 28px 0;
+            border-top: 1px solid var(--rule);
+        }
+
+        .app:first-of-type { border-top: none; }
+
+        .meta {
+            font-family: 'IBM Plex Mono', ui-monospace, monospace;
+            font-size: 0.72rem;
+            letter-spacing: 0.04em;
+            color: var(--ink-soft);
+            margin: 0 0 6px;
+        }
+
+        .meta .tag { color: var(--ember); }
+
+        h3.app-title {
+            margin: 0 0 10px;
+            font-family: 'Fraunces', Georgia, serif;
+            font-weight: 600;
+            font-size: 1.3rem;
+        }
+
+        h3.app-title a {
+            color: var(--ink);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        h3.app-title a:hover { border-bottom-color: var(--ember); }
+
+        .app p { margin: 10px 0; }
+
+        .app p.note {
+            color: var(--ink-soft);
+            font-size: 0.93rem;
+        }
+
+        .app-links {
+            font-family: 'IBM Plex Mono', ui-monospace, monospace;
+            font-size: 0.85rem;
+        }
+
+        .app-links a {
+            color: var(--ember);
+            text-decoration: none;
+        }
+
+        .app-links a:hover { text-decoration: underline; }
+
+        .shot {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid var(--rule);
+            margin-top: 16px;
+            display: block;
+        }
+
+        footer {
+            margin-top: 64px;
+            padding-top: 32px;
+            border-top: 1px solid var(--rule);
+            color: var(--ink-soft);
+            font-size: 0.97rem;
+        }
+
+        footer a { color: var(--ember); }
+
+        @media (max-width: 480px) {
+            body { padding: 48px 20px 72px; font-size: 16px; }
+            h1.site-title { font-size: 1.9rem; }
         }
     </style>
-        <!-- Matomo -->
+
+    <!-- Matomo -->
     <script>
       var _paq = window._paq = window._paq || [];
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -41,62 +169,75 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-JJ7ZSRG21W');
     </script>
     <!-- End Google tag (gtag.js) -->
 </head>
 <body>
 
-<h1>Windows Apps</h1>
+    <h1 class="site-title">S Rahul Bose</h1>
+    <p class="tagline">I build small apps and tools — usually because I needed one myself and couldn't find something that just did the one thing I wanted.</p>
 
-<h2>Rahul Merge Text</h2>
-<p>
-    <a href="https://github.com/srahulbose/Rahul-Merge-Text/">Rahul Merge Text</a> is a useful utility 📄 designed for seamlessly merging multiple text files into a single output document. This application is ideal for developers, students, and anyone managing various text files, enabling efficient and organized file handling. 🛠️
-</p>
-<p>
-    <a href="https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2">Release download.</a>
-</p>
-    <img src="https://raw.githubusercontent.com/srahulbose/Rahul-Merge-Text/refs/heads/main/Assets/Rahul%20Merge%20Text%20ScreenShot%2020241221143227.png" alt="Rahul Merge Text Screenshot" />
+    <section>
+        <h2 class="section-title">Windows Apps</h2>
 
-<h2>Key Features</h2>
-<ul>
-    <li>Effortlessly Merge Files: Merge multiple text files from any folder in Windows Explorer.</li>
-    <li>Automatic Processing: Merges files immediately when selected through the file dialog, making the user experience straightforward.</li>
-</ul>
+        <div class="app">
+            <p class="meta">published 12 Jan 2021<span class="tag"> · windows</span></p>
+            <h3 class="app-title"><a href="https://apps.microsoft.com/detail/9ngwd2mn1m1t?hl=en-US">Random Forge</a></h3>
+            <p>Generates random strings, numbers, GUIDs, UUIDs, and secure passwords, all from one small app instead of a browser tab full of half-trusted generator sites. Mostly built for developers and testing, but handy any time you need something random on the spot.</p>
+            <p class="note">Free to use, with optional in-app purchases.</p>
+            <p class="app-links"><a href="https://apps.microsoft.com/detail/9ngwd2mn1m1t?hl=en-US">Get it on Microsoft Store →</a></p>
+            <img class="shot" src="images/random-forge-screenshot.png" alt="Random Forge screenshot">
+        </div>
 
-<h1>Web Apps</h1>
+        <div class="app">
+            <p class="meta">published 21 Dec 2024<span class="tag"> · windows</span></p>
+            <h3 class="app-title"><a href="https://github.com/srahulbose/Rahul-Merge-Text/">Rahul Merge Text</a></h3>
+            <p>Merges a folder full of text files into one document. Select the files in Windows Explorer, and it stitches them together right away — no opening each one and copy-pasting by hand.</p>
+            <p class="app-links"><a href="https://github.com/srahulbose/Rahul-Merge-Text/releases/tag/v4.2">Download the latest release →</a></p>
+            <img class="shot" src="https://raw.githubusercontent.com/srahulbose/Rahul-Merge-Text/refs/heads/main/Assets/Rahul%20Merge%20Text%20ScreenShot%2020241221143227.png" alt="Rahul Merge Text screenshot">
+        </div>
+    </section>
 
-<h2>Annotator App</h2>
-<hr>
-<p>
-    To help students get a quick reference to concepts so that it will help during regular classes. -> <a href="https://srb.com.de/Annotator_Highlight_Business_MBA_Tool">Annotator App</a><br>
-    <img src="https://raw.githubusercontent.com/srb/srb.github.io/main/annotator_20240210233309.png" alt="Annotator App" />
-</p>
+    <section>
+        <h2 class="section-title">Web Apps</h2>
 
-<h2>Identify Indian Food App</h2>
-<hr>
-<p>
-    For Foodies who cannot easily recall regional Indian food dish names. -> <a href="https://srb.com.de/Identify_Indian_Food_from_Photo_Tool">Identify Indian Food App</a><br>
-    <img src="https://raw.githubusercontent.com/srb/srb.github.io/main/food-20240210233145.png" alt="Identify Indian Food App" />
-</p>
+        <div class="app">
+            <p class="meta">published 10 Feb 2024<span class="tag"> · web</span></p>
+            <h3 class="app-title"><a href="https://srb.com.de/Annotator_Highlight_Business_MBA_Tool">Annotator</a></h3>
+            <p>Built to help students find and highlight the concepts that actually matter, so a text is quicker to reference before or during class.</p>
+            <p class="app-links"><a href="https://srb.com.de/Annotator_Highlight_Business_MBA_Tool">Open Annotator →</a></p>
+            <img class="shot" src="https://raw.githubusercontent.com/srb/srb.github.io/main/annotator_20240210233309.png" alt="Annotator app screenshot">
+        </div>
 
-<h2>Personalized Wallpaper App</h2>
-<hr>
-<p>
-    For helping all of us stay positive by creating our own wallpapers from the quotes that we like individually. Background images are automatically selected and you get a ready-made poster you can use. -> <a href="https://srb.com.de/Wallpaper_Create_from_custom_text_Tool">Personalized Wallpaper App</a><br>
-    <img src="https://raw.githubusercontent.com/srb/srb.github.io/main/wallpaper_20240210233219.png" alt="Personalized Wallpaper App" />
-</p>
+        <div class="app">
+            <p class="meta">published 4 Jan 2021<span class="tag"> · web</span></p>
+            <h3 class="app-title"><a href="https://wordhaze.com/">WordHaze</a></h3>
+            <p>Paste in a large chunk of text and get a word cloud back — a fast way to see what a document is actually about before you read the whole thing.</p>
+            <p class="app-links"><a href="https://wordhaze.com/">Try WordHaze →</a></p>
+            <img class="shot" src="images/wordhaze-screenshot.png" alt="WordHaze screenshot">
+        </div>
 
-<h2>WordHaze</h2>
-<hr>
-<p>
-    If you wish to create a word cloud from a huge text, to quickly know the important topics mentioned, please try <a href="https://wordhaze.com/">WordHaze</a>.
-</p>
+        <div class="app">
+            <p class="meta">published 10 Feb 2024<span class="tag"> · web</span></p>
+            <h3 class="app-title"><a href="https://srb.com.de/Identify_Indian_Food_from_Photo_Tool">Identify Indian Food</a></h3>
+            <p>For anyone who's stared at a plate and drawn a complete blank on what the dish is called. Snap a photo and get a name for it.</p>
+            <p class="app-links"><a href="https://srb.com.de/Identify_Indian_Food_from_Photo_Tool">Open the tool →</a></p>
+            <img class="shot" src="https://raw.githubusercontent.com/srb/srb.github.io/main/food-20240210233145.png" alt="Identify Indian Food app screenshot">
+        </div>
 
-<p>
-    Please email me for any ideas, feedback, criticisms, and suggestions. Thank you. email: srbworld [at the rate] gmail.com
-</p>
+        <div class="app">
+            <p class="meta">published 10 Feb 2024<span class="tag"> · web</span></p>
+            <h3 class="app-title"><a href="https://srb.com.de/Wallpaper_Create_from_custom_text_Tool">Personalized Wallpaper</a></h3>
+            <p>Turns a quote you like into a wallpaper. Type in the words, and it picks a fitting background and lays out a ready-made poster you can actually use.</p>
+            <p class="app-links"><a href="https://srb.com.de/Wallpaper_Create_from_custom_text_Tool">Make a wallpaper →</a></p>
+            <img class="shot" src="https://raw.githubusercontent.com/srb/srb.github.io/main/wallpaper_20240210233219.png" alt="Personalized Wallpaper app screenshot">
+        </div>
+    </section>
+
+    <footer>
+        Got an idea, found a bug, or just want to say hi? Email me at srbworld [at the rate] gmail.com.
+    </footer>
 
 </body>
 </html>
