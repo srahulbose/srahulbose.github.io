@@ -1,6 +1,6 @@
 # S Rahul Bose
 
-I build small apps and tools — usually because I needed one myself and couldn't find something that just did the one thing I wanted.
+I build small apps and tools that help day to day life tasks.
 
 ---
 
@@ -16,7 +16,7 @@ Free to use, with optional in-app purchases.
 
 [Get it on Microsoft Store →](https://apps.microsoft.com/detail/9ngwd2mn1m1t?hl=en-US)
 
-![Random Forge screenshot](images/random-forge-screenshot.png)
+![Random Forge screenshot](https://raw.githubusercontent.com/srahulbose/srahulbose.github.io/refs/heads/main/assets/Random%20Forge%202.png)
 
 ---
 
@@ -44,17 +44,6 @@ Built to help students find and highlight the concepts that actually matter, so 
 
 ![Annotator app screenshot](https://raw.githubusercontent.com/srb/srb.github.io/main/annotator_20240210233309.png)
 
----
-
-### [WordHaze](https://wordhaze.com/)
-
-*published 4 Jan 2021 · web*
-
-Paste in a large chunk of text and get a word cloud back — a fast way to see what a document is actually about before you read the whole thing.
-
-[Try WordHaze →](https://wordhaze.com/)
-
-![WordHaze screenshot](images/wordhaze-screenshot.png)
 
 ---
 
@@ -81,5 +70,4 @@ Turns a quote you like into a wallpaper. Type in the words, and it picks a fitti
 ![Personalized Wallpaper app screenshot](https://raw.githubusercontent.com/srb/srb.github.io/main/wallpaper_20240210233219.png)
 
 ---
-
-Got an idea, found a bug, or just want to say hi? Email me at srbworld [at the rate] gmail.com.
+Am reachable at srbworld [at the rate] gmail.com.
